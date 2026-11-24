@@ -4,19 +4,19 @@ import { useScrollWatch } from '../hooks/useScrollWatch';
 
 const MERCH_ITEMS = [
   {
-    src: '/assets/images/goat_merch_hoodie_1795534779192.jpg',
+    src: './assets/images/goat_merch_hoodie_1795534779192.jpg',
     subtitle: 'RichGoat Classic',
     quote: '“POOR? NAH, RICHGOAT”',
     alt: "Person wearing RichGoat hoodie reading You're Not Broke, You're RichGoat",
   },
   {
-    src: '/assets/images/goat_merch_tee_1795534780294.jpg',
+    src: './assets/images/goat_merch_tee_1795534780294.jpg',
     subtitle: 'RichGoat Essential Tee',
     quote: '“CLOCK OUT. STACK UP.”',
     alt: 'Model wearing minimalist off-white RichGoat crewneck t-shirt',
   },
   {
-    src: '/assets/aistudio/Gemini_Generated_Image_vonjzsvonjzsvonj_4c459d8f.jpg',
+    src: './assets/aistudio/Gemini_Generated_Image_vonjzsvonjzsvonj_4c459d8f.jpg',
     subtitle: 'Executive Print',
     quote: '“YOU CAN DO IT — $RGOAT”',
     alt: 'RichGoat executive art print',
@@ -36,7 +36,7 @@ export function MerchSection() {
       id="merch"
       ref={ref}
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 md:py-28 overflow-hidden"
-      style={{ backgroundImage: 'url(/assets/bg/VQJukSQCz0XG.png)' }}
+      style={{ backgroundImage: 'url(./assets/bg/VQJukSQCz0XG.png)' }}
     >
       <div className="rg-divider rg-divider--flush" aria-hidden="true" />
 

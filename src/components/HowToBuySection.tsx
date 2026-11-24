@@ -48,24 +48,29 @@ export function HowToBuySection() {
       <div
         aria-hidden="true"
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/assets/bg/z0jD6w2JdUl4.png)' }}
+        style={{ backgroundImage: 'url(./assets/bg/z0jD6w2JdUl4.png)' }}
       />
       <div className="rg-divider" aria-hidden="true" />
 
       <div className="relative z-10 max-w-[112.5625rem] w-full mx-auto px-4">
         {/* Corkboard frame on desktop */}
-        <div
-          className="relative w-full flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 py-6 md:py-14 lg:aspect-[1771/1015] bg-none md:bg-[url('/assets/bg/j1m3YwfV1vwq.png')] md:bg-contain md:bg-center md:bg-no-repeat"
-        >
+        <div className="relative w-full flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 py-6 md:py-14 lg:aspect-[1771/1015]">
+          <img
+            src="./assets/bg/j1m3YwfV1vwq.png"
+            alt=""
+            aria-hidden="true"
+            className="hidden md:block absolute inset-0 w-full h-full object-contain pointer-events-none select-none"
+          />
+
           {/* Left: Employee of the month poster */}
-          <div className="w-[85%] sm:w-[65%] md:w-[40%] lg:w-[37%] flex justify-center shrink-0">
+          <div className="relative z-10 w-[85%] sm:w-[65%] md:w-[40%] lg:w-[37%] flex justify-center shrink-0">
             <div className="relative bg-white border-[4px] border-black rounded-2xl p-3 pt-5 pb-4 shadow-[8px_10px_0_rgba(0,0,0,0.35)] max-w-[440px] w-full">
               <div className="mx-auto w-[64%] mb-2.5 bg-white border-[3px] border-[#8b7d2b] rounded-md py-1 text-center font-comic uppercase text-lg sm:text-xl text-black tracking-wide">
                 BEST EMPLOYEE
               </div>
               <div className="border-[3px] border-black rounded-xl overflow-hidden aspect-square">
                 <img
-                  src="/assets/aistudio/Gemini_Generated_Image_upbc0aupbc0aupbc_3a766b4f.jpg"
+                  src="./assets/aistudio/Gemini_Generated_Image_upbc0aupbc0aupbc_3a766b4f.jpg"
                   alt="Best Employee RichGoat standing before a glowing upward stock chart"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -81,14 +86,18 @@ export function HowToBuySection() {
           <div className="relative z-10 w-full sm:w-[88%] md:w-[44%] lg:w-[35%] md:-translate-x-8 md:translate-y-6 md:rotate-[3.2deg] shrink-0">
             {/* Yellow tape */}
             <img
-              src="/assets/bg/ZVid16yI31YW.png"
+              src="./assets/bg/ZVid16yI31YW.png"
               alt=""
               aria-hidden="true"
               className="absolute -top-4 left-1/2 -translate-x-1/2 w-16 md:w-20 z-20 pointer-events-none select-none"
             />
 
             <div
-              className="w-full bg-contain bg-center bg-no-repeat px-6 sm:px-9 py-10 sm:py-12 md:px-10 md:py-14 flex flex-col items-center justify-center bg-[#fcfaf2] border-[3px] border-black shadow-[6px_8px_0_rgba(0,0,0,0.28)] md:border-none md:shadow-none md:bg-transparent md:bg-[url('/assets/bg/M0zVA8ApAFRi.png')] md:bg-[length:100%_100%]"
+              className="w-full px-6 sm:px-9 py-10 sm:py-12 md:px-10 md:py-14 flex flex-col items-center justify-center bg-[#fcfaf2] border-[3px] border-black shadow-[6px_8px_0_rgba(0,0,0,0.28)] md:border-none md:shadow-none md:bg-transparent bg-no-repeat"
+              style={{
+                backgroundImage: 'url(./assets/bg/M0zVA8ApAFRi.png)',
+                backgroundSize: '100% 100%',
+              }}
             >
               <h2
                 className={`font-display uppercase text-[#a4aec1] comic-stroke-lg text-center leading-[0.9] mb-4 md:mb-5 ${

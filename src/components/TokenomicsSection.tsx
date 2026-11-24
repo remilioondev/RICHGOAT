@@ -155,7 +155,7 @@ export function TokenomicsSection() {
 
           {/* Mascot peeking at bottom-left corner of clipboard */}
           <img
-            src="/assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
+            src="./assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
             alt="RichGoat mascot peeking over the tokenomics report"
             referrerPolicy="no-referrer"
             className="pointer-events-none select-none absolute -bottom-2 -left-2 sm:-left-6 w-28 sm:w-40 md:w-44 aspect-square object-cover rounded-2xl border-[4px] border-black shadow-[5px_7px_0_#000] z-20"
@@ -165,7 +165,7 @@ export function TokenomicsSection() {
         {/* Right side of wooden desk: Motivational Goat Buck Stack */}
         <div className="w-[80%] sm:w-[60%] lg:w-[36%] max-w-[460px] flex justify-center self-center rotate-[3deg]">
           <img
-            src="/assets/aistudio/Billete_verde_del_chivo_motivacional_a159570f.png"
+            src="./assets/aistudio/Billete_verde_del_chivo_motivacional_a159570f.png"
             alt="One RichGoat Buck motivational bill stack"
             referrerPolicy="no-referrer"
             className="w-full h-auto object-contain drop-shadow-[12px_16px_0_rgba(0,0,0,0.35)] select-none"

@@ -17,7 +17,7 @@ export function JoinSection() {
         aria-hidden="true"
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/assets/aistudio/Gemini_Generated_Image_jlxiyjjlxiyjjlxi_2895de31.jpg)',
+          backgroundImage: 'url(./assets/aistudio/Gemini_Generated_Image_jlxiyjjlxiyjjlxi_2895de31.jpg)',
         }}
       />
 

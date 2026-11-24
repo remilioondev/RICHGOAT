@@ -10,14 +10,14 @@ export function HeroSection() {
       <div
         aria-hidden="true"
         className="absolute inset-0 -scale-x-100 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/assets/bg/irwZXUlmaAb8.jpg)' }}
+        style={{ backgroundImage: 'url(./assets/bg/irwZXUlmaAb8.jpg)' }}
       />
 
       <div className="relative z-10 max-w-[99.375rem] w-full mx-auto px-4 flex flex-col-reverse md:flex-row items-center md:items-end justify-between gap-6 min-h-[calc(100vh-6rem)]">
         {/* Left: RichGoat Hero Mascot */}
         <div className="anim-to-right w-[90%] sm:w-[70%] md:w-[44%] lg:w-[42%] flex justify-center md:justify-start self-center md:self-center pb-6 md:pb-12 shrink-0">
           <img
-            src="/assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
+            src="./assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
             alt="RichGoat mascot wearing sunglasses and holding a wallet full of cash"
             referrerPolicy="no-referrer"
             className="w-full max-w-[460px] object-cover rounded-[2rem] border-[4px] border-black shadow-[8px_10px_0_#000] select-none"

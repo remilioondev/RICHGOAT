@@ -12,7 +12,7 @@ export function Footer() {
       <div
         className="relative pt-8 md:pt-10 bg-cover bg-no-repeat"
         style={{
-          backgroundImage: 'url(/assets/bg/UrXXC4YPcQot.jpg)',
+          backgroundImage: 'url(./assets/bg/UrXXC4YPcQot.jpg)',
           backgroundPosition: '70% bottom',
         }}
       >
@@ -89,7 +89,7 @@ export function Footer() {
           {/* Right: Peeking RichGoat Mascot */}
           <div className="w-64 sm:w-80 md:w-[36%] max-w-[400px] self-end pb-4 pointer-events-none select-none">
             <img
-              src="/assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
+              src="./assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
               alt="RichGoat mascot in sunglasses holding cash wallet"
               referrerPolicy="no-referrer"
               className="w-full aspect-square object-cover rounded-3xl border-[4px] border-black shadow-[6px_8px_0_#000] block"

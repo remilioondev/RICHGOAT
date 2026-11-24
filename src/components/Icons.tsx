@@ -2,7 +2,7 @@ export function RichGoatLogo({ className = '' }: { className?: string }) {
   return (
     <span className={`inline-flex items-center gap-2 select-none ${className}`}>
       <img
-        src="/assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
+        src="./assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
         alt="RichGoat"
         referrerPolicy="no-referrer"
         className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-xl border-[2.5px] border-black drop-shadow-[0_2px_0_#000] shrink-0"

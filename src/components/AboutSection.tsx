@@ -8,7 +8,7 @@ export function AboutSection() {
       id="about"
       ref={ref}
       className="relative z-20 w-full bg-cover bg-center bg-no-repeat pb-12 md:pb-24 pt-14 md:pt-28"
-      style={{ backgroundImage: 'url(/assets/bg/ttamKaPOQa5R.png)' }}
+      style={{ backgroundImage: 'url(./assets/bg/ttamKaPOQa5R.png)' }}
     >
       <div className="rg-divider" aria-hidden="true" />
 
@@ -74,7 +74,7 @@ export function AboutSection() {
         {/* Right: Framed Comic Office Goat Illustration */}
         <div className="w-full md:w-[52%] max-w-[40.8125rem] rounded-3xl border-[4px] border-black bg-[#dbe7ee] shadow-[8px_8px_0_#000] overflow-hidden self-center md:self-end">
           <img
-            src="/assets/aistudio/Gemini_Generated_Image_vonjzsvonjzsvonj_4c459d8f.jpg"
+            src="./assets/aistudio/Gemini_Generated_Image_vonjzsvonjzsvonj_4c459d8f.jpg"
             alt="RichGoat in sunglasses and suit at the office desk with a You Can Do It sticky note"
             referrerPolicy="no-referrer"
             className="w-full h-auto block object-cover"

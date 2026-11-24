@@ -6,14 +6,14 @@ const AI_POSTS = [
     title: 'RichGoat',
     handle: '@RichGoat_SOL',
     text: "If I could pick just ONE meme that's gonna skyrocket me to the moon… it's $RGOAT. Why settle for average when the RichGoat herd is all about hitting those diamond gains? 💎",
-    cardImage: '/assets/aistudio/Gemini_Generated_Image_upbc0aupbc0aupbc_3a766b4f.jpg',
+    cardImage: './assets/aistudio/Gemini_Generated_Image_upbc0aupbc0aupbc_3a766b4f.jpg',
     cardAlt: 'RichGoat standing in front of an upward financial chart',
   },
   {
     title: 'Terminal of Goat',
     handle: '@richgoatterminal',
     text: "You're not broke. You're just early on $RGOAT. Clocking out of the cubicle, clocking into generational wealth while the herd stacks nonstop.",
-    cardImage: '/assets/aistudio/Billete_verde_del_chivo_motivacional_a159570f.png',
+    cardImage: './assets/aistudio/Billete_verde_del_chivo_motivacional_a159570f.png',
     cardAlt: 'Motivational RichGoat dollar bill stack',
   },
 ];
@@ -26,7 +26,7 @@ export function AiMachineSection() {
       id="ai"
       ref={ref}
       className="relative z-40 w-full bg-cover bg-center bg-no-repeat py-16 md:py-28 overflow-hidden"
-      style={{ backgroundImage: 'url(/assets/bg/Qoe4I9W48CAI.png)' }}
+      style={{ backgroundImage: 'url(./assets/bg/Qoe4I9W48CAI.png)' }}
     >
       <div className="rg-divider rg-divider--flush" aria-hidden="true" />
 
@@ -36,27 +36,27 @@ export function AiMachineSection() {
           {/* Decorative sticky note accents from PRICH2 */}
           <div aria-hidden="true" className="hidden md:block absolute inset-0 pointer-events-none">
             <img
-              src="/assets/icons/mJbDIMdZSSr8.png"
+              src="./assets/icons/mJbDIMdZSSr8.png"
               alt=""
               className="absolute top-[8%] -left-[8%] w-16 object-contain"
             />
             <img
-              src="/assets/icons/AEJw6gbcFtka.png"
+              src="./assets/icons/AEJw6gbcFtka.png"
               alt=""
               className="absolute top-[25%] left-[1%] w-16 object-contain"
             />
             <img
-              src="/assets/icons/JSkRdMUv3wG6.png"
+              src="./assets/icons/JSkRdMUv3wG6.png"
               alt=""
               className="absolute top-[68%] left-[12%] w-16 object-contain"
             />
             <img
-              src="/assets/icons/Fx0iD2DFrKze.png"
+              src="./assets/icons/Fx0iD2DFrKze.png"
               alt=""
               className="absolute bottom-0 right-[14%] w-16 object-contain"
             />
             <img
-              src="/assets/icons/vMRscN0igVAH.png"
+              src="./assets/icons/vMRscN0igVAH.png"
               alt=""
               className="absolute top-0 -right-[10%] w-28 object-contain"
             />
@@ -120,7 +120,7 @@ export function AiMachineSection() {
                   <div className="flex items-start gap-3 sm:gap-4 mb-3">
                     <div className="w-12 h-12 sm:w-16 sm:h-16 shrink-0 rounded-2xl border-[2.5px] border-black bg-[#dbe7ee] overflow-hidden">
                       <img
-                        src="/assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
+                        src="./assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
                         alt={post.title}
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"
@@ -161,7 +161,7 @@ export function AiMachineSection() {
             }`}
           >
             <img
-              src="/assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
+              src="./assets/aistudio/Gemini_Generated_Image_xkpe1qxkpe1qxkpe_d5c0053e.jpg"
               alt="RichGoat mascot holding wallet full of cash"
               referrerPolicy="no-referrer"
               className="w-full max-w-[380px] aspect-square object-cover rounded-[2rem] border-[4px] border-black shadow-[8px_10px_0_#000]"

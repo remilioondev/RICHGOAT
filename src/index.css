@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Lemonism DEMO";
   font-display: swap;
-  src: url("/fonts/HoMsO3oAwnlo.woff2") format("woff2");
+  src: url("./assets/HoMsO3oAwnlo.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -184,7 +184,7 @@ body {
   min-width: 100vw;
   height: 44px;
   transform: translate(-50%, -50%);
-  background: url("/assets/bg/ZiTLbNy373fh.svg") center / cover no-repeat;
+  background: url("./assets/ZiTLbNy373fh.svg") center / cover no-repeat;
   z-index: 15;
   pointer-events: none;
 }
