@@ -57,7 +57,7 @@ export function Footer() {
 
             <div className="flex items-center gap-3">
               <a
-                href="https://x.com/RichGoat_SOL"
+                href="https://x.com/RICHGOATONSOL"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="RichGoat on X"

@@ -27,7 +27,7 @@ export function HeroSection() {
         {/* Right: Hero Comic Title + Actions */}
         <div className="anim-to-left w-full md:w-[52%] flex flex-col items-center md:items-center text-center self-center pb-6 md:pb-20">
           <p className="font-comic uppercase text-lg md:text-2xl text-[#181e22] tracking-wider mb-1">
-            $RGOAT · PRE-RICH ERA
+            $RGOAT · GOAT-ERA
           </p>
 
           <h1
@@ -48,7 +48,7 @@ export function HeroSection() {
             </a>
 
             <a
-              href="https://x.com/RichGoat_SOL"
+              href="https://x.com/RICHGOATONSOL"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow RichGoat on X"

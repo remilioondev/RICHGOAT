@@ -4,7 +4,7 @@ import { XIcon } from './Icons';
 const AI_POSTS = [
   {
     title: 'RichGoat',
-    handle: '@RichGoat_SOL',
+    handle: '@RICHGOATONSOL',
     text: "If I could pick just ONE meme that's gonna skyrocket me to the moon… it's $RGOAT. Why settle for average when the RichGoat herd is all about hitting those diamond gains? 💎",
     cardImage: './assets/aistudio/Gemini_Generated_Image_upbc0aupbc0aupbc_3a766b4f.jpg',
     cardAlt: 'RichGoat standing in front of an upward financial chart',
@@ -91,7 +91,7 @@ export function AiMachineSection() {
           </p>
 
           <a
-            href="https://x.com/RichGoat_SOL"
+            href="https://x.com/RICHGOATONSOL"
             target="_blank"
             rel="noopener noreferrer"
             className={`rg-btn w-72 sm:w-[21.4375rem] h-12 text-xl sm:text-2xl whitespace-nowrap shrink-0 ${

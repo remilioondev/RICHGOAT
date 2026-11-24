@@ -42,7 +42,7 @@ export function JoinSection() {
         </a>
 
         <a
-          href="https://x.com/RichGoat_SOL"
+          href="https://x.com/RICHGOATONSOL"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Follow RichGoat on X"
