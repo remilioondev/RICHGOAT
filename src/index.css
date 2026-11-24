@@ -1,0 +1,319 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Lemonism DEMO";
+  font-display: swap;
+  src: url("/fonts/HoMsO3oAwnlo.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-display: "Lemonism DEMO", "Boogaloo", cursive, sans-serif;
+  --font-body: "Boogaloo", cursive, sans-serif;
+  --rg-orange: #ed9858;
+  --rg-orange-bright: #f29d60;
+  --rg-dark: #181e22;
+  --rg-steel: #95a7b3;
+  --rg-blue-title: #a4aec1;
+  --rg-cream: #f1ede7;
+  --rg-sage: #ddead6;
+  --rg-ice: #cfe0ff;
+  --rg-cyan: #0385af;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  color: #000;
+  background-color: #dbe4ec;
+  font-family: var(--font-body);
+  line-height: 1.1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-comic {
+  font-family: var(--font-body);
+}
+
+/* Comic Stroked Text Helpers */
+.comic-stroke {
+  -webkit-text-stroke-width: 0.02em;
+  -webkit-text-stroke-color: #000;
+  paint-order: stroke fill;
+}
+
+.comic-stroke-lg {
+  -webkit-text-stroke-width: 0.032em;
+  -webkit-text-stroke-color: #000;
+  paint-order: stroke fill;
+}
+
+.comic-stroke-heavy {
+  -webkit-text-stroke-width: 0.045em;
+  -webkit-text-stroke-color: #000;
+  paint-order: stroke fill;
+}
+
+/* Comic Double-Bordered Buttons (exact PRICH2 motif) */
+.rg-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  user-select: none;
+}
+
+.rg-btn::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0.25rem;
+  border: 0.125rem solid #95a7b3;
+  background-color: #181e22;
+  transition: inset 0.2s ease, border-radius 0.2s ease;
+}
+
+.rg-btn span {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  transition: letter-spacing 0.2s ease;
+}
+
+.rg-btn:hover::before {
+  inset: 0;
+}
+
+.rg-btn:hover span {
+  letter-spacing: 0.16em;
+}
+
+.rg-btn--white {
+  background-color: #ed9858;
+}
+
+.rg-btn--white::before {
+  inset: 0.1875rem;
+  border: 0.1875rem solid #000;
+  background-color: #fff;
+}
+
+.rg-btn--white span {
+  color: #000;
+}
+
+.rg-btn--sage::before {
+  background-color: #ddead6;
+  border-color: #95a7b3;
+}
+
+.rg-btn--sage span {
+  color: #181e22;
+}
+
+.rg-btn--cream::before {
+  background-color: #f1ede7;
+  border-color: #95a7b3;
+}
+
+.rg-btn--cream span {
+  color: #000;
+}
+
+.rg-social-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  flex-shrink: 0;
+}
+
+.rg-social-btn::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0.25rem;
+  border: 0.125rem solid #95a7b3;
+  background-color: #181e22;
+  transition: inset 0.2s ease;
+}
+
+.rg-social-btn--cream::before {
+  background-color: #f1ede7;
+}
+
+.rg-social-btn svg {
+  position: relative;
+  z-index: 3;
+  transition: transform 0.2s ease;
+}
+
+.rg-social-btn:hover::before {
+  inset: 0;
+}
+
+.rg-social-btn:hover svg {
+  transform: scale(1.16);
+}
+
+/* Comic Section Divider Bar */
+.rg-divider {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 108%;
+  min-width: 100vw;
+  height: 44px;
+  transform: translate(-50%, -50%);
+  background: url("/assets/bg/ZiTLbNy373fh.svg") center / cover no-repeat;
+  z-index: 15;
+  pointer-events: none;
+}
+
+.rg-divider--flush {
+  transform: translate(-50%, 0);
+}
+
+/* Keyframe Animations matching PRICH2 */
+@keyframes rgToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-120%) scaleX(1) scaleY(1);
+  }
+  25% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(6%) scaleX(0.92) scaleY(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes rgToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(120%) scaleX(1) scaleY(1);
+  }
+  25% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(-6%) scaleX(0.92) scaleY(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes rgFadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(2.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rgFadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-2.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rgMerch1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(2.196deg);
+  }
+}
+
+@keyframes rgMerch2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(6.986deg);
+  }
+}
+
+@keyframes rgMerch3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(11.616deg);
+  }
+}
+
+.anim-to-right {
+  animation: rgToRight 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-to-left {
+  animation: rgToLeft 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-fade-right {
+  animation: rgFadeRight 0.35s ease-out forwards;
+}
+
+.anim-fade-left {
+  animation: rgFadeLeft 0.35s ease-out forwards;
+}
+
+.merch-frame-front {
+  animation: rgMerch1 0.45s ease forwards;
+}
+
+.merch-frame-middle {
+  animation: rgMerch2 0.45s ease forwards;
+}
+
+.merch-frame-back {
+  animation: rgMerch3 0.45s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-to-right,
+  .anim-to-left,
+  .anim-fade-right,
+  .anim-fade-left {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

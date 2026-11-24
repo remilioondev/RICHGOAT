@@ -1,0 +1,6 @@
+{
+  "name": "RichGoat",
+  "description": "You're not broke. You're just in your RichGoat phase. The comic-powered $RGOAT movement built by future moguls and dreamers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
